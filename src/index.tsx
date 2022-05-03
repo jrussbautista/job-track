@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { ENVIRONMENT } from 'app/constants';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { makeServer } from './mocks/server';
+
+if (ENVIRONMENT === 'development') {
+  makeServer();
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(

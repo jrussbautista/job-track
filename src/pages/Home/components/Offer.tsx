@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 
 const Container = styled('div')(({ theme }) => ({
   [theme.breakpoints.up('lg')]: {
-    padding: '100px 0',
+    padding: '60px 0',
   },
 }));
 

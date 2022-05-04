@@ -1,12 +1,14 @@
 import Container from '@mui/material/Container';
-import Hero from './components/Hero';
-import Offer from './components/Offer';
+import HeroSection from './components/HeroSection';
+import OfferSection from './components/OfferSection';
+import PricingSection from './components/PricingSection';
 
 function HomePage() {
   return (
     <Container>
-      <Hero />
-      <Offer />
+      <HeroSection />
+      <OfferSection />
+      <PricingSection />
     </Container>
   );
 }

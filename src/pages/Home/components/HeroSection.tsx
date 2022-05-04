@@ -35,7 +35,7 @@ const StyledButton = styled(Button)({
   marginTop: 60,
 });
 
-function Hero() {
+function HeroSection() {
   return (
     <Container>
       <Heading variant="h5" sx={{ mb: 4 }}>
@@ -59,4 +59,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HeroSection;

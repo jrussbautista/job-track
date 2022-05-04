@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Container from '@mui/material/Container';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -14,7 +15,7 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
   background: theme.palette.common.white,
 }));
 
-const AppBarContainer = styled('div')({
+const AppBarContainer = styled(Container)({
   flexGrow: 1,
 });
 

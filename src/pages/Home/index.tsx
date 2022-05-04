@@ -1,13 +1,6 @@
-import { styled } from '@mui/material/styles';
+import Container from '@mui/material/Container';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
-
-const Container = styled('div')(({ theme }) => ({
-  padding: 20,
-  [theme.breakpoints.up('lg')]: {
-    padding: 40,
-  },
-}));
 
 function HomePage() {
   return (

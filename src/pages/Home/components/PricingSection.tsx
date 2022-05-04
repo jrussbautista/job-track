@@ -5,7 +5,8 @@ import { styled } from '@mui/material/styles';
 import PricingCard from './PricingCard';
 
 const Container = styled('div')({
-  marginBottom: 100,
+  maxWidth: 600,
+  margin: '0 auto 100px auto',
 });
 
 const Title = styled(Typography)(({ theme }) => ({
